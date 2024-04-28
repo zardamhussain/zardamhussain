@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Zardam and I'm a Competitive Programmer and Web Developer</h2>
+<h2 align="left">Salutations! 👋 I'm Zardam, adept in the realms of competitive programming and backend development...</h2>
 
 ###
 
