@@ -84,3 +84,5 @@ if __name__ == '__main__':
 
 <a href="https://www.linkedin.com/in/zardam-hussain-a0a919216/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="dephraiim" height="20" width="20" /></a>
 <a href="https://leetcode.com/code_alone/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="dephraiim" height="20" width="20" /></a>
+
+<img src="https://raw.githubusercontent.com/zardamhussain/zardamhussain/output/snake.svg" alt="Snake animation" />
