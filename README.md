@@ -1,81 +1,86 @@
-<h2 align="left">Salutations! 👋 I'm Zardam, adept in the realms of competitive programming and backend development...</h2>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rumbleftw&label=Profile%20views&color=00ff00&style=flat" alt="zardamhussain" /> </p>
 
-###
+## **About me**
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zardamhussain&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zardamhussain&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-###
 
-<img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjdvaHAyYzZzeTk3OXNmemU5c3ViMjRzbjRhbWplNXZvdG1ncGN6aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RJblOG6NGv9hJz2oLG/giphy.gif"  />
+class Developer:
 
-###
+    def __init__(self):
+        self.name = "Zardam Hussain"
+        self.age = 22
+        self.location = "Delhi, India"
+        self.programming_languages = ["🐍 Python", "🦀 Rust", "🇨 C++", "☕ Java"]
+        self.hobbies = ["🎮 Playing Video Games", "⚽ Football"]
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="30" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="30" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="30" alt="anaconda logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="30" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="30" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg" height="30" alt="haskell logo"  />
-</div>
+    def about(self):
+        print(f"Hey! I am {self.name}. I love to build stuff!")
+        print(f"I'm {self.age} years old and based in {self.location}.")
+        print("\n🌐 Programming Languages I Enjoy:")
+        for language in self.programming_languages:
+            print(f" - {language}")
+        print("\n🎯 Hobbies:")
+        for hobby in self.hobbies:
+            print(f" - {hobby}")
+        print("\nHere's a fun fact:")
+        self.fun_fact()
 
-###
+    def fun_fact(self):
+        print("Did you know? The first computer programmer was Ada Lovelace!")
 
-<div align="left">
-  <a href="https://www.instagram.com/zardam_hussain/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/zardam-hussain-a0a919216/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+    def ascii_art(self):
+        art = r"""
+         (\_/)
+         ( •_•)
+        / >🌐   Coding the world!
+        """
+        print(art)
 
-###
 
-<br clear="both">
+if __name__ == '__main__':
+    me = Developer()
+    me.about()
+    me.ascii_art()
+```
 
-<img src="https://raw.githubusercontent.com/zardamhussain/zardamhussain/output/snake.svg" alt="Snake animation" />
+## **Tools and technologies**
+<p align="left">
+  <img id="python" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="100">
+  <img id="torch" src="https://media.giphy.com/media/GwtfUx2P2HnvByDZdg/giphy.gif" width="100">
+  <img id="docker" src="https://media.giphy.com/media/GudLvkVqOqkT7l4vKC/giphy.gif" width="100">
+  <img id="vs" src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="100">
+  <img id="github" src="https://i.giphy.com/media/KzJkzjggfGN5Py6nkT/200.webp" width="100">
+  <img id="tf" src="https://media.giphy.com/media/BtUG0yeT6pICwdBfxA/giphy.gif" width="100">
+  <img id="opencv" src="https://media.giphy.com/media/SvFocn0wNMx0iv2rYz/giphy.gif" width="100">
+  <img id="react" src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" width="100">
+</p>
 
-###
+## **Some projects**
+
+<a href="https://github.com/zardamhussain/aigf_python">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zardamhussain&repo=aigf_python&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+</a>
+
+
+<a href="https://github.com/zardamhussain/chat_server_cpp ">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zardamhussain&repo=chat_server_cpp&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+
+
+<a href="https://github.com/zardamhussain/image_cropper_rust">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zardamhussain&repo=image_cropper_rust&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+</a>
+
+<a href="https://github.com/zardamhussain/AI_CAR">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=zardamhussain&repo=AI_CAR&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+</a>
+
+</a>
+
+
+## **Socials**
+
+<a href="https://www.linkedin.com/in/zardam-hussain-a0a919216/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="dephraiim" height="20" width="20" /></a>
+<a href="https://leetcode.com/code_alone/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="dephraiim" height="20" width="20" /></a>
